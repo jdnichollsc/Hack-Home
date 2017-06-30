@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Hack@Home</string>
+  <string name="Email">Correio:</string>
+  <string name="Password">Senha:</string>
+  <string name="Validate">Validar</string>
+  <string name="InvalidUserOrNotInEvent_Authentication">O usuário não está registrado neste evento.</string>
+  <string name="OutOfDate_Authentication">O tempo do concurso expirou.</string>
+  <string name="Error_Authentication">Erro autenticar o usuário, tente novamente.</string>
+  <string name="Evidence">evidência</string>
+  <string name="Description">Descrição</string>
+</resources>

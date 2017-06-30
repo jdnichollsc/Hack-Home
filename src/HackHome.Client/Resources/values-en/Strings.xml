@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Hack@Home</string>
+  <string name="Email">Email:</string>
+  <string name="Password">Password:</string>
+  <string name="Validate">Validate</string>
+  <string name="InvalidUserOrNotInEvent_Authentication">The user is not registered in this event.</string>
+  <string name="OutOfDate_Authentication">The Hack@Home has finished.</string>
+  <string name="Error_Authentication">Error authenticating the user, try again.</string>
+  <string name="Evidence">Evidence</string>
+  <string name="Description">Description</string>
+</resources>

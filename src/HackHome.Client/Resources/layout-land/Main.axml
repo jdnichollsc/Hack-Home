@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="@string/Email"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/emailTextView"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="@string/Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/passwordTextView"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right" />
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <Button
+        android:text="@string/Validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/validateButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientationImage"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp" />
+</LinearLayout>
