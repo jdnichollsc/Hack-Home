@@ -1,6 +1,11 @@
 # Hack@Home 
 A **Xamarin.Android** project for **Xamarin Diplomado 3.0**.
 
+<img width="242px" height="411px" src="img/main.png">|
+<img width="242px" height="411px" src="img/evidences.png">|
+<img width="242px" height="411px" src="img/evidencedetail.png">
+:---: |:---: |:---: |
+
 # Other projects
 - **[A Xamarin summary](https://github.com/proyecto26/Xamarin)**.
 
